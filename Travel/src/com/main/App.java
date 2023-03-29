@@ -29,7 +29,8 @@ public class App {
 
 					System.out.println("Get ready to fill your pages with beautiful memories");
 					System.out.println("Enter location");
-					String p=sc.next();
+					String p=sc.nextLine();
+						p=sc.nextLine();   //inorder to read input of both string and integer
 					System.out.println("Number of persons:");
 					int n1 = sc.nextInt();
 					Cusdetails[] c = new Cusdetails[n1];
